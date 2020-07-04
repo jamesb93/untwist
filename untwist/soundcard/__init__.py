@@ -3,4 +3,3 @@ try:
     audio_driver = PyAudioDriver()
 except:
     audio_driver = None
-    print("Sound card not available")
